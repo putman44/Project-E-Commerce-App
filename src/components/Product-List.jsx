@@ -12,7 +12,7 @@ const ProductList = ({ products }) => {
     acc[product.category].push(product);
     return acc;
   }, {});
-
+  //check
   const handleFilterChange = (event) => {
     setSelectedCategory(event.target.value);
   };
