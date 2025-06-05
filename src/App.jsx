@@ -4,12 +4,10 @@ import ProductList from "./components/Product-List";
 import "./App.css";
 
 function App() {
-  const [products, setProducts] = useState(PRODUCTS);
-
   return (
     <>
       <div>
-        <ProductList products={products} />
+        <ProductList products={PRODUCTS} />
       </div>
     </>
   );
